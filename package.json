@@ -1,0 +1,27 @@
+{
+  "name": "databronks",
+  "version": "0.1.0",
+  "description": "A command-line alias for the Databricks CLI",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nipunn1313/databronks.git"
+  },
+  "bin": {
+    "databronks": "bin/databronks.js"
+  },
+  "files": [
+    "assets/",
+    "bin/"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "databricks",
+    "cli",
+    "alias"
+  ]
+}
