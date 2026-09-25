@@ -2,7 +2,7 @@
 
 # databronks
 
-A tiny alias for the [Databricks CLI](https://docs.databricks.com/aws/en/dev-tools/cli/). Type `databronks` instead of `databricks`; all commands and options go to the Databricks CLI.
+CLI for [Databronks](https://www.databronks.com).
 
 ## Install
 
@@ -12,27 +12,21 @@ A tiny alias for the [Databricks CLI](https://docs.databricks.com/aws/en/dev-too
    databricks version
    ```
 
-2. Install `databronks` with npm (Node.js 18 or newer):
+2. Install `databronks` with npm:
 
    ```sh
    npm install --global databronks
    ```
 
-This package does not install the Databricks CLI or set up Databricks authentication.
-
 ## Use
 
-Run any Databricks CLI command with the new name:
+Run any Databronks CLI command:
 
 ```sh
 databronks version
 databronks workspace list /
 databronks --help
 ```
-
-For a project-local install, use `npm install --save-dev databronks`, then run `npx databronks version` or call `databronks` from an npm script.
-
-`databronks` passes arguments directly to `databricks`. It shares the same working directory, environment, and terminal input/output, and returns the same exit status. If `databricks` is missing from `PATH`, it prints an error and exits with status 127.
 
 ## Development
 
