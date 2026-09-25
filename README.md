@@ -1,4 +1,4 @@
-<img src="./assets/databronks.png" alt="databronks logo" width="320">
+<img src="https://raw.githubusercontent.com/nipunn1313/databronks/main/assets/databronks.png" alt="databronks logo" width="320">
 
 # databronks
 
