@@ -1,6 +1,6 @@
 {
   "name": "databronks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A command-line tool for the Databronks CLI",
   "license": "MIT",
   "homepage": "https://www.databronks.com",
