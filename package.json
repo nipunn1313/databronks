@@ -1,7 +1,9 @@
 {
   "name": "databronks",
   "version": "0.1.0",
-  "description": "A command-line alias for the Databricks CLI",
+  "description": "A command-line tool for the Databronks CLI",
+  "license": "MIT",
+  "homepage": "https://www.databronks.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nipunn1313/databronks.git"
@@ -20,8 +22,8 @@
     "node": ">=18"
   },
   "keywords": [
-    "databricks",
+    "databronks",
     "cli",
-    "alias"
+    "databricks"
   ]
 }
